@@ -1,0 +1,36 @@
+name: vizdoom
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip=23.3.1=py38h06a4308_0
+  - python=3.8.19=h955ad1f_0
+  - pytorch>=2.0.0
+  - pytorch-mutex=1.0=cuda
+  - readline=8.2=h5eee18b_0
+  - setuptools=68.2.2=py38h06a4308_0
+  - sqlite=3.41.2=h5eee18b_0
+  - tbb=2021.8.0=hdb19cb5_0
+  - tk=8.6.12=h1ccaba5_0
+  - typing_extensions=4.9.0=py38h06a4308_1
+  - wheel=0.41.2=py38h06a4308_0
+  - xz=5.4.6=h5eee18b_0
+  - zlib=1.2.13=h5eee18b_0
+  - tensorflow=2.4
+  - pip:
+      - cloudpickle==3.1.1
+      - colorlog==6.9.0
+      - cython==3.0.11
+      - docker-pycreds==0.4.0
+      - farama-notifications==0.0.4
+      - faster-fifo==1.4.7
+      - google-auth-oauthlib==0.4.6
+      - oauthlib==3.2.2
+      - opencv-python
+      - pyglet==2.1.2
+      - pyyaml==6.0.2
+      - signal-slot-mp==1.0.5
+      - six==1.17.0
+      - tensorboardx==2.6.2.2
+      - vizdoom==1.2.4
+      - /src

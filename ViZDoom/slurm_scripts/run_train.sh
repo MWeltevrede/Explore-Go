@@ -1,0 +1,3 @@
+#!/bin/bash
+
+apptainer exec --nv vizdoom.sif /bin/bash -c "python -m sf_examples.vizdoom.train_contextual_vizdoom --save_every_sec=150 --wandb_project=vizdoom-slurm --with_wandb=True --train_for_env_steps=500000000 --algo=APPO --env_frameskip=4 --use_rnn=True --wide_aspect_ratio=False --save_milestones_sec=120 --milestone_step_freq=1000000 --num_envs_per_worker=16 --num_workers=16 --decorrelate_envs_on_one_worker=False --env=my_way_home_train --seed=0 --num_contexts=10 --max_pure_expl_steps=200 --experiment=my_way_home_train_see_0_n.con_10_m.p.e.ste_200 --train_dir=./train_dir/doom_contexts/dc_slurm"
