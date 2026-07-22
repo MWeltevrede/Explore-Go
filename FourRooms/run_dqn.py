@@ -246,8 +246,8 @@ config = {
     "beta": args.beta,
     "lambda": args.lam,
     "alpha": args.alpha,
-    "initialisation": 'orthogonal',
-    "dont_bootstrap_terminal": True,
+    "initialisation": 'kaiming',
+    "dont_bootstrap_terminal": False,
 }
 
 for seed in args.seeds:

@@ -88,4 +88,4 @@ dependencies:
     - wandb==0.18.0
     - werkzeug==3.0.4
     - four_room@git+https://github.com/MWeltevrede/four_room@efe47aee18a414470aba52a1b9a87ec1a8b010aa
-    - stable_baselines3@git+https://github.com/MWeltevrede/stable-baselines3@2ff271a80b669dfe1091960e5392a5a26b11037f
+    - stable_baselines3@git+https://github.com/MWeltevrede/stable-baselines3@16d3b2873f9cd6cc4bdee8f7631d33b69d5a896c
